@@ -10,7 +10,7 @@ This project is about a 1024 bit x 32 bit single-port SRAM design with common re
     o	Write/Read 
     
 •	Ports & Pin Description
-    o	Address Bus
+                                o	Address Bus
     o	Data Bus
     o	Chip Select
     o	Write Enable
@@ -24,5 +24,5 @@ This project is about a 1024 bit x 32 bit single-port SRAM design with common re
 
 •	Truth Table of SRAM Model
 
-•	Output Wavefor
+•	Output Waveform
 
