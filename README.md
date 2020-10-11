@@ -10,16 +10,11 @@ This project is about a 1024 bit x 32 bit single-port SRAM design with common re
     o	Write/Read 
     
 •	Ports & Pin Description
+o  Package Contents
+o  Software Tool Requirements
+o  Release History
+o  Technical Support
 
-   Address Bus
-                                o	Address Bus
-    o	Data Bus
-    o	Chip Select
-    o	Write Enable
-    o	Output Enable
-    o	RDY
-    o	CLK
-    
 •	Write Cycle Timing Diagram
 
 •	Read Cycle Timing Diagram
