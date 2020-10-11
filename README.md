@@ -11,17 +11,11 @@ This project is about a 1024 bit x 32 bit single-port SRAM design with common re
     
 •	Ports & Pin Description
     o	Address Bus
-    
     o	Data Bus
-    
     o	Chip Select
-    
     o	Write Enable
-    
     o	Output Enable
-    
     o	RDY
-    
     o	CLK
     
 •	Write Cycle Timing Diagram
