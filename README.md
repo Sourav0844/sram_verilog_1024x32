@@ -12,8 +12,11 @@ This project is about a 1024 bit x 32 bit single-port SRAM design with common re
 •	Ports & Pin Description
 
    o  Package Contents
+   
    o  Software Tool Requirements
+   
    o  Release History
+   
    o  Technical Support
 
 •	Write Cycle Timing Diagram
