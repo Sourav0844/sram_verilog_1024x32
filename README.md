@@ -7,6 +7,15 @@ This project is about a 1024 bit x 32 bit single-port SRAM design with common re
 • SRAM Block Diagram
 
 • Verilog Modules
+- SRAM Desgin
+- Block Diagram
+- Pre-Layout
+  - 6T-SRAM Memory cell
+  - Precharge circuit
+  - Sense Amplifier
+  - Write Driver
+- Installing and simulating on NGSpice
+- Future work
 
    o  Write/Read
          
