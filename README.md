@@ -9,7 +9,7 @@ This project is about a 1024 bit x 32 bit single-port SRAM design with common re
 •	Verilog Modules
     o	Write/Read 
     
-    o	Output 
+        Output
     
 •	Ports & Pin Description
     o	Address Bus
