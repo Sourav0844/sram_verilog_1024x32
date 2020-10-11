@@ -10,6 +10,8 @@ This project is about a 1024 bit x 32 bit single-port SRAM design with common re
     o	Write/Read 
     
 •	Ports & Pin Description
+
+   Address Bus
                                 o	Address Bus
     o	Data Bus
     o	Chip Select
