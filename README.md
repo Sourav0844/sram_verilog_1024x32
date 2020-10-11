@@ -2,11 +2,21 @@
 This project is about a 1024 bit x 32 bit single-port SRAM design with common read and write addresses implemented using Verilog HDL in Open Source Simulator EDA Playground.
 
 # Contents
-1. Introduction
-2. SRAM Block Diagram
-3. Verilog Modules
-4. Ports & Pin Description
-5. Write Cycle Timing Diagram
-6. Read Cycle Timing Diagram
-7. Truth Table of SRAM Model
-8. Output Waveform
+•	Introduction
+•	SRAM Block Diagram
+•	Verilog Modules
+o	Write/Read 
+o	Output 
+•	Ports & Pin Description
+o	Address Bus
+o	Data Bus
+o	Chip Select
+o	Write Enable
+o	Output Enable
+o	RDY
+o	CLK
+•	Write Cycle Timing Diagram
+•	Read Cycle Timing Diagram
+•	Truth Table of SRAM Model
+•	Output Waveform
+
