@@ -5,16 +5,16 @@ This project is about a 1024 bit x 32 bit single-port SRAM design with common re
 •	Introduction
 •	SRAM Block Diagram
 •	Verilog Modules
-o	Write/Read 
-o	Output 
+    o	Write/Read 
+    o	Output 
 •	Ports & Pin Description
-o	Address Bus
-o	Data Bus
-o	Chip Select
-o	Write Enable
-o	Output Enable
-o	RDY
-o	CLK
+    o	Address Bus
+    o	Data Bus
+    o	Chip Select
+    o	Write Enable
+    o	Output Enable
+    o	RDY
+    o	CLK
 •	Write Cycle Timing Diagram
 •	Read Cycle Timing Diagram
 •	Truth Table of SRAM Model
