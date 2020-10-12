@@ -21,7 +21,7 @@ This project is about a 1024 bit x 32 bit single-port SRAM design with common re
   - Output Waveforms
   - About EDA Playground
 
-## Introduction
+# Introduction
    - Memory is a very basic element in any Digital electronic device which is used for digital data storage. Static Random-Access Memory (SRAM) is a type of semiconductor memory      that uses bi-stable latching circuitry  to store each bit. 
    - This project describes a 1024 bit x 32 bit single-port SRAM design in Verilog HDL which performs the basic Read and Write Operation.For viewing the Output Timing diagrams,      an Open Source EDA platform was used with Free Simulators.
 
