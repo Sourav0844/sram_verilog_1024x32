@@ -19,25 +19,14 @@ This project is about a 1024 bit x 32 bit single-port SRAM design with common re
 - Write Cycle Timing Diagram
 - Read Cycle Timing Diagram
 - Truth Table of SRAM Model
-- Output Waveforms
-  - 1-bit Data
-  - 1024x32 bit Data
+- Simulating on EDA Playground
+  - Output Waveforms
+  - About EDA Playground
 
-
-Verilog Single Port RAM Design Example v1.0 README File
-
-This readme file for the Verilog Single Port RAM Design contains
-information about the design example in the Quartus ll HDL
-Templates. Ensure that you have read the information on the
-Verilog Single Port RAM Design Example web page before using the
-example.
-
-This file contains the following information:
-
-o  Package Contents
-o  Software Tool Requirements
-o  Release History
-o  Technical Support
+## SRAM Design
+    The project is generally focused on the design of 1k*32-bit 6T SRAM memory using [OpenRAM](https://www.openidentityplatform.org/openam) compiler.For the design of the custom memory array, OpenRAM memory compiler takes in Spice nelist file and Layout file to generate a SRAM memory cell.
+   - SRAM Specification - Memory Size of 1k 32-bit, Operating voltage - 5V, Technology PDK file - 0.5um SCMOS Technology from MOSIS, Access time less than 30ns 
+     - For more information on OpenRAM compiler please [click here](https://github.com/mguthaus/OpenRAM/blob/master/OpenRAM_ICCAD_2016_paper.pdf "OpenRAM")
 
 Package Contents
 ================
