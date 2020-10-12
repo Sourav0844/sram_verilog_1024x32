@@ -8,8 +8,6 @@ This project is about a 1024 bit x 32 bit single-port SRAM design with common re
 - Verilog Modules
   - Write Read Task
   - Output Task
-  - Sense Amplifier
-  - Write Driver
 - Ports/Pin Description
   - Address Bus
   - Data Bus
@@ -23,10 +21,9 @@ This project is about a 1024 bit x 32 bit single-port SRAM design with common re
   - Output Waveforms
   - About EDA Playground
 
-## SRAM Design
-    The project is generally focused on the design of 1k*32-bit 6T SRAM memory using [OpenRAM](https://www.openidentityplatform.org/openam) compiler.For the design of the custom memory array, OpenRAM memory compiler takes in Spice nelist file and Layout file to generate a SRAM memory cell.
-   - SRAM Specification - Memory Size of 1k 32-bit, Operating voltage - 5V, Technology PDK file - 0.5um SCMOS Technology from MOSIS, Access time less than 30ns 
-     - For more information on OpenRAM compiler please [click here](https://github.com/mguthaus/OpenRAM/blob/master/OpenRAM_ICCAD_2016_paper.pdf "OpenRAM")
+## Introduction
+   - Memory is a very basic element in any Digital electronic device which is used for digital data storage. Static Random-Access Memory (SRAM) is a type of semiconductor memory      that uses bi-stable latching circuitry  to store each bit. 
+   - This project describes a 1024 bit x 32 bit single-port SRAM design in Verilog HDL which performs the basic Read and Write Operation.For viewing the Output Timing diagrams,      an Open Source EDA platform was used with Free Simulators.
 
 Package Contents
 ================
