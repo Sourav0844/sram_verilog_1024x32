@@ -27,7 +27,9 @@ This project is about a 1024 bit x 32 bit single-port SRAM design with common re
 
 # SRAM Block Diagram
   - The SRAM cell consists of 10-bit Address Bus ,32-bit input and ouput Data Bus. There are 4 different types of pins which perform the required operation during Read and Write     in the SRAM.They are Write Enable WEn,Output Enable OEn, Ready Pin RDY,Chip Enable CEn driven by a synchronous clock signal.
-  ![Block Diagram png](https://user-images.githubusercontent.com/66715802/96229564-b92a0200-0fb4-11eb-9fd4-f6c8b88b9c42.png)
+  
+  ![Block Diagram png (2)](https://user-images.githubusercontent.com/66715802/96230332-0d34e680-0fb5-11eb-97ad-6c8324ff3b60.png)
+
   
 # Verilog Modules
   - The SRAM cell consists of 10-bit Address Bus ,32-bit input and ouput Data Bus. There are 4 different types of pins which perform the required operation during Read and Write     in the SRAM.They are Write Enable WEn,Output Enable OEn, Ready Pin RDY,Chip Enable CEn driven by a synchronous clock signal.
