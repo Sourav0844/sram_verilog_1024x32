@@ -32,7 +32,13 @@ This project is about a 1024 bit x 32 bit single-port SRAM design with common re
 
   
 # Verilog Modules
-  - The SRAM cell consists of 10-bit Address Bus ,32-bit input and ouput Data Bus. There are 4 different types of pins which perform the required operation during Read and Write     in the SRAM.They are Write Enable WEn,Output Enable OEn, Ready Pin RDY,Chip Enable CEn driven by a synchronous clock signal.
+  - The Verilog module of Synchronous SRAM consists of Write Enable Operation and Output Enable Operation.Verilog task operator is used to describe the operations of both the       modules.
+  - In the Write_Enable task both the bits of Address Bus A and Data Bus D are incremented by 1 for multiple bit storage keeping WEn signal active low.
+  - In the Output_Enable task, Read Operation starts from intial memory address A=0,and delay of #20 is added because each Write is taking 20sec to perform & so to complete
+    my last write, I start Read at #20 delay. $strobe display task is used to display the values because it prints the text when all simulation events in the current time step have     been executed.
+
+  
+  
 
 # Ports/Pin Description
   - The SRAM cell consists of 10-bit Address Bus ,32-bit input and ouput Data Bus. There are 4 different types of pins which perform the required operation during Read and Write     in the SRAM.They are Write Enable WEn,Output Enable OEn, Ready Pin RDY,Chip Enable CEn driven by a synchronous clock signal.
