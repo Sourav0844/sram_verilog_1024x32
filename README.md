@@ -71,6 +71,10 @@ This project is about a 1024 bit x 32 bit single-port SRAM design with common re
   
 # Simulating on EDA Playground
   - The SRAM cell consists of 10-bit Address Bus ,32-bit input and ouput Data Bus. There are 4 different types of pins which perform the required operation during Read and Write     in the SRAM.They are Write Enable WEn,Output Enable OEn, Ready Pin RDY,Chip Enable CEn driven by a synchronous clock signal.
+  ![Single Data](https://user-images.githubusercontent.com/66715802/96370533-c80ee100-117b-11eb-85df-3dab31ae0c96.png)
+  
+  ![Multiple Data](https://user-images.githubusercontent.com/66715802/96370541-cfce8580-117b-11eb-8b77-5ca12fbdf9ea.png)
+
   
 
 The Quartus II software version 9.1 or later, 
