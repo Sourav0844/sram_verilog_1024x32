@@ -56,6 +56,8 @@ This project is about a 1024 bit x 32 bit single-port SRAM design with common re
   
 # Write Cycle Timing Diagram
   - The SRAM cell consists of 10-bit Address Bus ,32-bit input and ouput Data Bus. There are 4 different types of pins which perform the required operation during Read and Write     in the SRAM.They are Write Enable WEn,Output Enable OEn, Ready Pin RDY,Chip Enable CEn driven by a synchronous clock signal. 
+  ![Write cycle](https://user-images.githubusercontent.com/66715802/96369277-95161e80-1176-11eb-88fa-2fe8d861ca1f.png)
+
   
 # Read Cycle Timing Diagram
   - The SRAM cell consists of 10-bit Address Bus ,32-bit input and ouput Data Bus. There are 4 different types of pins which perform the required operation during Read and Write     in the SRAM.They are Write Enable WEn,Output Enable OEn, Ready Pin RDY,Chip Enable CEn driven by a synchronous clock signal.
