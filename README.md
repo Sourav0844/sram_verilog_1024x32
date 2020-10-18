@@ -75,21 +75,6 @@ This project is about a 1024 bit x 32 bit single-port SRAM design with common re
   
   ![Multiple Data](https://user-images.githubusercontent.com/66715802/96370541-cfce8580-117b-11eb-8b77-5ca12fbdf9ea.png)
 
-  
-
-The Quartus II software version 9.1 or later, 
-or supported versions of third-party synthesis tools. 
-
-Contact your local sales representative if you do not have the
-necessary software tools.
-
-
-Release History
-===============
-
-Version 1.0
------------
-- First release of example
 
 
 Technical Support
