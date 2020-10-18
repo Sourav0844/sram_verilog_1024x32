@@ -41,7 +41,17 @@ This project is about a 1024 bit x 32 bit single-port SRAM design with common re
   
 
 # Ports/Pin Description
-  - The SRAM cell consists of 10-bit Address Bus ,32-bit input and ouput Data Bus. There are 4 different types of pins which perform the required operation during Read and Write     in the SRAM.They are Write Enable WEn,Output Enable OEn, Ready Pin RDY,Chip Enable CEn driven by a synchronous clock signal.
+  - 1. Address Bus : The address inputs are used to select a memory location on the chip. The number of address input lines depends on the size of the memory. 
+  - 2. I/O Data Bus : During a write operation, a data signal is applied at the data input pin & is stored in the selected memory cell. During a read operation, data from the          selected memory cell appears at the data output pin once access is complete and the output is enabled.
+       - The Data I/O pins are sometime in a high impedance state(Z) where they do not source or sink any current, and also do not present any signal to the device.
+  - 3. Chip Select(CEn) : The Chip Select is used to block or allow input signals to the chip. Its an active low input pin. When CEn is low, then all the signals are applied to        the chip input pin & the are latched correctly at the appropriate edge of the clock cycle.
+  - 4. Write Enable(WEn) : Write Enable is used to choose between a read & write operation. When WEn is low, data applied at the data input pins is written into memory. 
+       When WEn is high, a read operation occurs from the memory.
+  - 5. Output Enable(OEn) : Output Enable is being used only to control the appearance of data at the output port after read operation has been performed successfully.
+  - 6. RDY : It’s an active High input Pin. This pin basically tells the CPU whether the SRAM is ready so that the CPU can load & retrieve information to/from the SRAM.
+       Since SRAM is a Volatile memory , so when there is any power up-down then the CPU needs to check whether the SRAM is stable or not. RDY pin is also used to synchronize          slower peripherals to faster microprocessor.
+
+
   
 # Write Cycle Timing Diagram
   - The SRAM cell consists of 10-bit Address Bus ,32-bit input and ouput Data Bus. There are 4 different types of pins which perform the required operation during Read and Write     in the SRAM.They are Write Enable WEn,Output Enable OEn, Ready Pin RDY,Chip Enable CEn driven by a synchronous clock signal. 
