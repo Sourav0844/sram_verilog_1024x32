@@ -12,7 +12,8 @@ This project is about a 1024 bit x 32 bit single-port SRAM design with common re
   - Address Bus
   - Data Bus
   - Chip Select
-  - Write-Read Enable
+  - Write Enable
+  - Output Enable
   - RDY
 - Write Cycle Timing Diagram
 - Read Cycle Timing Diagram
@@ -43,7 +44,7 @@ This project is about a 1024 bit x 32 bit single-port SRAM design with common re
 # Ports/Pin Description
   - 1. Address Bus : The address inputs are used to select a memory location on the chip. The number of address input lines depends on the size of the memory. 
   - 2. I/O Data Bus : During a write operation, a data signal is applied at the data input pin & is stored in the selected memory cell. During a read operation, data from the          selected memory cell appears at the data output pin once access is complete and the output is enabled.
-       - The Data I/O pins are sometime in a high impedance state(Z) where they do not source or sink any current, and also do not present any signal to the device.
+       The Data I/O pins are sometime in a high impedance state(Z) where they do not source or sink any current, and also do not present any signal to the device.
   - 3. Chip Select(CEn) : The Chip Select is used to block or allow input signals to the chip. Its an active low input pin. When CEn is low, then all the signals are applied to        the chip input pin & the are latched correctly at the appropriate edge of the clock cycle.
   - 4. Write Enable(WEn) : Write Enable is used to choose between a read & write operation. When WEn is low, data applied at the data input pins is written into memory. 
        When WEn is high, a read operation occurs from the memory.
