@@ -67,7 +67,9 @@ This project is about a 1024 bit x 32 bit single-port SRAM design with common re
 
   
 # Truth Table of SRAM Model
-  - The SRAM cell consists of 10-bit Address Bus ,32-bit input and ouput Data Bus. There are 4 different types of pins which perform the required operation during Read and Write     in the SRAM.They are Write Enable WEn,Output Enable OEn, Ready Pin RDY,Chip Enable CEn driven by a synchronous clock signal.
+  - The OEn, CS and WEn signals are active low inputs. When the CS is High then we get a High Impedance(Z) State. When both the WEn & OEn signals are high, the output is             disabled and we again get a High Impedance State.
+  - The SRAM gets Read mode enabled output when OEn is Low and WEn is high. Similarly Write mode is enabled when WEn is low .Since Write mode does not depends upon OEn signal so     it is kept Don’t care.
+
   ![Truth Table](https://user-images.githubusercontent.com/66715802/96370413-474fe500-117b-11eb-96fa-9b17e66f6ca7.png)
 
   
