@@ -60,8 +60,10 @@ This project is about a 1024 bit x 32 bit single-port SRAM design with common re
 
   
 # Read Cycle Timing Diagram
-  - The SRAM cell consists of 10-bit Address Bus ,32-bit input and ouput Data Bus. There are 4 different types of pins which perform the required operation during Read and Write     in the SRAM.They are Write Enable WEn,Output Enable OEn, Ready Pin RDY,Chip Enable CEn driven by a synchronous clock signal.
-  ![Read cycle](https://user-images.githubusercontent.com/66715802/96369442-96941680-1177-11eb-9d38-97d1981179cf.png)
+  - With the first positive edge of Clock cycle, Address Bus initializes a memory location for each period. The SRAM gets selected by keeping CEn signal low. 
+    WEn is kept high at the first positive edge because it is performing Read Operation and it remains high till the Read is completed on all the memory addresses.
+    OEn is kept low to enable the output once Read is Performed on each memory location. The data at the output is displayed after some delay of OEn signal. This delay is           basically the time taken by the output pin to receive and display the value after Read operation is completed successfully. Ready Pin goes high simultaneously which points       that the CPU is ready for the Write operation to get executed.
+    ![Read cycle](https://user-images.githubusercontent.com/66715802/96369442-96941680-1177-11eb-9d38-97d1981179cf.png)
 
   
 # Truth Table of SRAM Model
